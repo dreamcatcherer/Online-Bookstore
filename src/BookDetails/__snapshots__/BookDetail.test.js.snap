@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the BookCoverImage component correctly 1`] = `
+<div>
+  <div
+    class="details"
+  >
+    <h2>
+      Book Details
+    </h2>
+    <div
+      class="detailsContainer"
+    >
+      <p>
+        Author: 
+      </p>
+      <p>
+        Pages: 
+        28
+      </p>
+      <p>
+        Language: 
+        English
+      </p>
+      <p>
+        ISBN: 
+      </p>
+      <p>
+        Publisher: 
+        Candlewick; Illustrated edition (September 14, 2010)
+      </p>
+    </div>
+  </div>
+</div>
+`;

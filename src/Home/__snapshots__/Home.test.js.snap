@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the home component correctly 1`] = `
+<div>
+  <main
+    class="homeMain"
+  >
+    <div
+      class="highlyRatedBooksSection"
+    >
+      <div
+        class="title"
+      >
+        <h3>
+          <center>
+            BestSellers
+          </center>
+        </h3>
+      </div>
+      <div
+        class="container"
+      >
+        <a
+          class="containerItem"
+          href="/book/adventure/0001-JurassicPark"
+        >
+          <div
+            class="imageStyle"
+          >
+            <img
+              alt="JurassicPark"
+              src="JurassicPark.jpg"
+            />
+          </div>
+          <p
+            class="bookName"
+          >
+            Jurassic Park
+          </p>
+        </a>
+        <a
+          class="containerItem"
+          href="/book/fantasy/0002-GameOfThrones"
+        >
+          <div
+            class="imageStyle"
+          >
+            <img
+              alt="GameOfThrones"
+              src="GameOfThrones.jpg"
+            />
+          </div>
+          <p
+            class="bookName"
+          >
+            Game Of Thrones
+          </p>
+        </a>
+        <a
+          class="containerItem"
+          href="/book/adventure/0002-The-Da-Vinci-Code"
+        >
+          <div
+            class="imageStyle"
+          >
+            <img
+              alt="Da Vinci Code"
+              src="DaVinciCode.jpg"
+            />
+          </div>
+          <p
+            class="bookName"
+          >
+            Da Vinci Code
+          </p>
+        </a>
+        <a
+          class="containerItem"
+          href="/book/adventure/0003-The-Martian"
+        >
+          <div
+            class="imageStyle"
+          >
+            <img
+              alt="The Martian"
+              src="TheMartian.jpg"
+            />
+          </div>
+          <p
+            class="bookName"
+          >
+            The Martian
+          </p>
+        </a>
+      </div>
+    </div>
+  </main>
+</div>
+`;

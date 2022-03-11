@@ -1,0 +1,62 @@
+
+
+.homeMain {
+  background-image: url("../images/Background/Home.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  display: inline-block;
+  background-color: rgb(153, 149, 149);
+  color: white;
+
+  border-radius: 10px;
+  margin-bottom: 15px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 25px;
+  padding-left: 40px;
+}
+
+.containerItem {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.placeName {
+  color: black;
+  background-color: white;
+  font-size: large;
+  border-radius: 10px;
+}
+
+.placeName:hover {
+  color: white;
+  background-color: darkgray;
+}
+
+@media screen and (min-width: 150px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 800px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

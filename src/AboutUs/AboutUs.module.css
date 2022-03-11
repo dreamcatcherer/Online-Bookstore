@@ -1,0 +1,10 @@
+.aboutUs {
+  font-size: large;
+}
+
+.aboutUsHeading {
+  background-color: rgb(78, 122, 128);
+  color: white;
+  border-radius: 10px;
+  width: 162px;
+}

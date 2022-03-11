@@ -1,0 +1,78 @@
+.categoriesSection {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 0px 100px;
+  list-style: none;
+  font-size: 1.5em;
+  background-color: rgb(154, 226, 208);
+  height: 38px;
+}
+
+.category:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  background-color: red;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  margin-bottom: 10px;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar .subCategoryItem:hover,
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdownContent {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdownContent .subCategoryItem {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdownContent .subCategoryItem:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdownContent {
+  display: block;
+}

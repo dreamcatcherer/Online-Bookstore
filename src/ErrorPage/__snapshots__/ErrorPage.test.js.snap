@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the PageNotFound component correctly 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div>
+      <img
+        alt="404 Page Not Found"
+        class="image"
+        src="404PageNotFound.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;

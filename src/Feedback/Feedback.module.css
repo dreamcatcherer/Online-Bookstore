@@ -1,0 +1,119 @@
+.feedbackForm {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.formHeadingSection {
+  background-color: rgb(13, 146, 111);
+  color: white;
+  border-radius: 10px;
+  width: 182px;
+}
+
+.image {
+  height: auto;
+  max-width: 30em;
+}
+
+.imageSection {
+  align-self: center;
+  justify-self: center;
+}
+
+.inputField {
+  width: 70%;
+  height: 30px;
+  border-radius: 10px;
+  border: 2px #ccc solid;
+  font-family: "Merienda";
+  font-size: x-small;
+}
+
+.messageTextField {
+  width: 70%;
+  height: 100px;
+  border-radius: 10px;
+  border: 2px #ccc solid;
+  font-family: "Merienda";
+  font-size: x-small;
+}
+
+.require:after {
+  content: "*";
+  color: red;
+}
+
+input:focus {
+  background: rgba(180, 220, 235, 0.555);
+}
+
+textarea:focus {
+  background: rgba(180, 220, 235, 0.555);
+}
+
+.formItem {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.actualForm div {
+  margin: 10px;
+}
+
+.genderDropdown {
+  height: 30px;
+  border-radius: 10px;
+  border: 2px #ccc solid;
+  font-family: "Merienda";
+  font-size: x-small;
+}
+
+.submit {
+  width: 72%;
+  height: 50px;
+  border-radius: 10px;
+  border: 2px #ccc solid;
+  font-family: "Merienda";
+  background-color: rgb(13, 146, 111);
+  color: white;
+  font-size: medium;
+}
+
+.submit:hover {
+  box-shadow: 0px 10px 20px rgb(68, 139, 120);
+  cursor: pointer;
+}
+
+.submittedDetails {
+  font-family: "Patrick Hand";
+  font-size: large;
+}
+
+.okButton {
+  width: 10%;
+  height: 50px;
+  border-radius: 10px;
+  border: 2px #ccc solid;
+  font-family: "Merienda";
+  background-color: rgb(13, 146, 111);
+  color: white;
+  font-size: medium;
+  margin-top: 15px;
+}
+
+.okButton:hover {
+  box-shadow: 0px 10px 20px rgb(68, 139, 120);
+  cursor: pointer;
+}
+
+.okText {
+  color: white;
+  text-decoration: none;
+}
+
+.formElements {
+  font-family: "Merienda";
+  font-size: small;
+  color: rgb(77, 77, 77);
+}

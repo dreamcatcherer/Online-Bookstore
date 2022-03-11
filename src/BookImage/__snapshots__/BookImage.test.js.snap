@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the BookCoverImage component correctly 1`] = `
+<div>
+  <div
+    class="imageStyle"
+  >
+    <img
+      src="https://www.penguin.co.uk/content/dam/prh/books/183/183689/9780141199078.jpg.transform/PRHDesktopWide_small/image.jpg"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,277 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Feedback component correctly 1`] = `
+<div>
+  <div>
+    <form>
+      <div
+        class="feedbackForm"
+      >
+        <div
+          class="imageSection"
+        >
+          <img
+            alt="Feedback form"
+            class="image"
+            src="feedback.png"
+          />
+        </div>
+        <div
+          class="actualForm"
+        >
+          <div
+            class="formHeadingSection"
+          >
+            <h1>
+              Write to Us
+            </h1>
+          </div>
+          <div>
+            <input
+              class="inputField"
+              id="nameId"
+              name="name"
+              placeholder="Full name (required)"
+              required=""
+              type="text"
+            />
+          </div>
+          <div>
+            <input
+              class="inputField"
+              id="emailId"
+              name="email"
+              placeholder="Email address, example: xyz@test.com (required)"
+              required=""
+              type="email"
+            />
+          </div>
+          <div>
+            <input
+              class="inputField"
+              id="phoneId"
+              name="phoneNumber"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+              placeholder="Phone number, example: 987-654-3210 (required)"
+              required=""
+              type="tel"
+            />
+          </div>
+          <div>
+            <label
+              class="Elements"
+              for="genderDropdown"
+            >
+              Gender:
+            </label>
+            <div>
+              <select
+                class="genderDropdown"
+                id="genderDropdown"
+                name="gender"
+              >
+                <option
+                  value="Male"
+                >
+                  Male
+                </option>
+                <option
+                  value="Female"
+                >
+                  Female
+                </option>
+                <option
+                  value="Don't Want To Answer"
+                >
+                  Don't want to answer
+                </option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <label
+              class="Elements"
+              for="hearAboutUsDropdown"
+            >
+              How did you hear about us?
+            </label>
+            <div>
+              <select
+                class="genderDropdown"
+                id="hearAboutUsDropdown"
+                name="hearAboutUs"
+              >
+                <option
+                  disabled=""
+                  value="true"
+                >
+                  Select
+                </option>
+                <option
+                  value="Newsletter"
+                >
+                  Newsletter
+                </option>
+                <option
+                  value="Friend"
+                >
+                  Friend
+                </option>
+                <option
+                  value="Employee at Travelers"
+                >
+                  Employee at Travelers
+                </option>
+                <option
+                  value="Other"
+                >
+                  Other
+                </option>
+              </select>
+            </div>
+          </div>
+          <div
+            class="Elements"
+          >
+            How would you rate us? 
+            <br />
+            <input
+              id="1"
+              name="rate"
+              type="radio"
+              value="Horrible"
+            />
+            <label
+              for="Worse"
+            >
+               Horrible 
+            </label>
+            <input
+              id="2"
+              name="rate"
+              type="radio"
+              value="Bad"
+            />
+            <label
+              for="2"
+            >
+               Bad 
+            </label>
+            <input
+              id="3"
+              name="rate"
+              type="radio"
+              value="Neutral"
+            />
+            <label
+              for="3"
+            >
+               Neutral 
+            </label>
+            <input
+              id="4"
+              name="rate"
+              type="radio"
+              value="Good"
+            />
+            <label
+              for="4"
+            >
+               Good 
+            </label>
+            <input
+              id="5"
+              name="rate"
+              type="radio"
+              value="Best"
+            />
+            <label
+              for="5"
+            >
+               Best 
+            </label>
+          </div>
+          <div
+            class="Elements"
+          >
+            Would you recommend us to your family and friends? 
+            <br />
+            <input
+              id="1"
+              name="recommend"
+              type="radio"
+              value="Strongly No"
+            />
+            <label
+              for="Worse"
+            >
+               Strongly No 
+            </label>
+            <input
+              id="2"
+              name="recommend"
+              type="radio"
+              value="No"
+            />
+            <label
+              for="2"
+            >
+               No 
+            </label>
+            <input
+              id="3"
+              name="recommend"
+              type="radio"
+              value="May be"
+            />
+            <label
+              for="3"
+            >
+               May be 
+            </label>
+            <input
+              id="4"
+              name="recommend"
+              type="radio"
+              value="Yes"
+            />
+            <label
+              for="4"
+            >
+               Yes 
+            </label>
+            <input
+              id="5"
+              name="recommend"
+              type="radio"
+              value="Strongly Yes"
+            />
+            <label
+              for="5"
+            >
+               Strongly Yes 
+            </label>
+          </div>
+          <div>
+            <textarea
+              class="messageTextField"
+              id="messageId"
+              maxlength="1000"
+              name="feedback"
+              placeholder="Your feedback here.. (required)"
+              required=""
+            />
+          </div>
+          <div>
+            <input
+              class="submit"
+              type="submit"
+              value="Submit"
+            />
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+`;

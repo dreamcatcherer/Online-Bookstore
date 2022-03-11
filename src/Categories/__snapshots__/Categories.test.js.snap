@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Categories component correctly 1`] = `
+<div>
+  <div
+    class="navbar"
+  >
+    <a
+      class="category"
+      href="/"
+    >
+      Home
+    </a>
+    <a
+      class="category"
+      href="/allbooks"
+    >
+      All Books
+    </a>
+    <div
+      class="dropdown"
+    >
+      <button
+        class="dropbtn"
+      >
+        Books By Category 
+        <i
+          class="fa fa-caret-down"
+        />
+      </button>
+      <div
+        class="dropdownContent"
+      >
+        <a
+          class="subCategoryItem"
+          href="/classics"
+        >
+          Classics
+        </a>
+        <a
+          class="subCategoryItem"
+          href="/adventure"
+        >
+          Adventure
+        </a>
+        <a
+          class="subCategoryItem"
+          href="/scifi"
+        >
+          Sci-Fi
+        </a>
+        <a
+          class="subCategoryItem"
+          href="/fantasy"
+        >
+          Fantasy
+        </a>
+      </div>
+    </div>
+    <a
+      class="category"
+      href="/aboutUs"
+    >
+      About Us
+    </a>
+    <a
+      class="optionLink"
+      href="/feedback"
+    >
+      Feedback
+    </a>
+    <a
+      class="optionLink"
+      href="/contactUs"
+    >
+      Contact Us
+    </a>
+    <a
+      class="optionLink"
+      href="/thankyou"
+    >
+      Thank You
+    </a>
+  </div>
+</div>
+`;
